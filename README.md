@@ -1,8 +1,45 @@
 # Wonmor brand
 
-The Wonmor mark, lockups, colours and brand film, with the rules for using them. This is a condensed copy of the [brand page on wonmor.io](https://wonmor.io/brand/), which is the source of truth. If the two ever differ, the page on wonmor.io applies.
+The Wonmor mark, two lockups, three app icons, four colours and a 19.4-second brand film, with the rules for using them.
 
-The files are not open-licensed. See [LICENSE.md](LICENSE.md) before you use them.
+![files: not open-licensed](https://img.shields.io/badge/files-not%20open--licensed-090A1E)
+![colours](https://img.shields.io/badge/Wonmor%20Blue-%232969FF-2969FF)
+
+**[Website](https://wonmor.io) · [Brand page](https://wonmor.io/brand/) · [Design tokens demo](https://wonmor.io/demo/design-system/)**
+
+![Brand film poster: the Wonmor mark](film/wonmor_16x9.jpg)
+
+## What it is
+
+- **The mark.** Two V's side by side that read as one W; the left V at 65% opacity, the right one solid.
+- **Lockups.** The mark followed by **onmor**, drawn from the same geometry, for light and dark backgrounds.
+- **Icons.** Rounded-square app icons in blue, dark and light, plus 192 and 512 px PNGs.
+- **Colours.** Wonmor Blue `#2969FF`, Ink `#090A1E`, White, Paper `#FAF9F5`, also in [`colors.json`](colors.json).
+- **Brand film.** The mark's story rendered from code, as 16:9 and 9:16 MP4.
+- **Rules.** Clear space, minimum sizes, do and don't, and how to write the names.
+
+This is a condensed copy of the [brand page on wonmor.io](https://wonmor.io/brand/), which is the source of truth. If the two ever differ, the page on wonmor.io applies. The UI colours, type scale and motion of wonmor.io live in [design-system](https://github.com/wonmortech/design-system) ([live playground](https://wonmor.io/demo/design-system/)).
+
+The files are **not open-licensed**. See [LICENSE.md](LICENSE.md) before you use them.
+
+| | |
+|---|---|
+| <img src="logo/lockup-on-light.svg" alt="Wonmor lockup for light backgrounds" height="56"> | <img src="film/wonmor_screen_9x16.jpg" alt="Brand film poster, 9:16" height="220"> |
+| **Lockup on light.** Wonmor Blue mark, Ink wordmark. | **Vertical film.** 9:16 for phones and stories. |
+| <img src="logo/icon-blue.svg" alt="Wonmor app icon, blue" height="96"> <img src="logo/icon-dark.svg" alt="Wonmor app icon, dark" height="96"> <img src="logo/icon-light.svg" alt="Wonmor app icon, light" height="96"> | <img src="logo/mark-blue.svg" alt="Wonmor mark in blue" height="96"> |
+| **App icons.** Blue, dark and light, padding included. | **The mark alone.** For favicons, avatars and tight spaces. |
+
+## Quick start
+
+Use the files as they are, for example the lockup for a light page:
+
+```bash
+curl -sLO https://raw.githubusercontent.com/wonmortech/brand/main/logo/lockup-on-light.svg
+```
+
+```html
+<img src="lockup-on-light.svg" alt="Wonmor" height="32">
+```
 
 ## The mark
 
